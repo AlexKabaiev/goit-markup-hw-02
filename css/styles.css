@@ -1,18 +1,130 @@
+/* Общие настройки стиля */
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
   color: #212121;
   background-color: #f5f5f5;
 }
+/* Стилизация логотипа */
 .logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: #000000;
   text-decoration: none;
   letter-spacing: 0.03em;
+  color: #000000;
 }
-.logo span  {
-    color: #2196F3;
+
+.logo span {
+  color: #2196f3;
+}
+/* Навигация по страницам */
+.pages-nav {
+  list-style-type: none;
+}
+
+.pages-nav .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.pages-nav .link:hover,
+.pages-nav .link:focus {
+  color: #2196f3;
+}
+/* Стилизация контактов в шапке */
+.mail-head,
+.tel-head {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.mail-head:hover,
+.tel-head:hover {
+  color: #2196f3;
+}
+
+/* Стилизация первой секции */
+.first-section {
+  background-color: #2f303a;
+}
+/*Стилизация основного заголовка */
+.main-tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Стилизация кнопки заказа услуги */
+.main-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  border: 0;
+  cursor: pointer;
+}
+
+/* Стилизация кнопок на странице Портфолио */
+.projects-menu {
+  list-style-type: none;
+}
+.menu-button {
+  border: 0;
+  cursor: pointer;
+}
+
+.menu-button-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  text-decoration: none;
+}
+
+.menu-button-link:hover,
+.menu-button-link:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* Стилизация подвала */
+.footer {
+  background-color: #2f303a;
+}
+/* Стилизация контактов в подвале */
+.footer-contacs {
+  list-style-type: none;
+}
+
+.map-footer {
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.mail-footer,
+.tel-footer {
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
