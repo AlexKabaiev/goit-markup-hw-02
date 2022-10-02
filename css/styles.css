@@ -160,21 +160,18 @@ body {
 }
 
 .menu-button {
-  border: 0;
-  cursor: pointer;
-}
-
-.menu-button-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
-  background-color: var(--color-button);
-  text-decoration: none;
+  color: var(--color-brand);
+  background-color: #f5f4fa;
+  border: 0;
+  cursor: pointer;
 }
 
-.menu-button-link:hover,
-.menu-button-link:focus {
+.menu-button:hover,
+.menu-button:focus {
   color: var(--color-white);
   background-color: var(--color-accent);
 }
@@ -202,18 +199,18 @@ body {
 
 /* Стизизация основной секции страницы портфолио */
 .projects-list {
-   list-style-type: none;
+  list-style-type: none;
 }
 
 .projects-title {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--color-brand)
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-brand);
 }
 
 .projects-text {
-font-size: 16px;
-line-height: 1.875;
+  font-size: 16px;
+  line-height: 1.875;
 }
